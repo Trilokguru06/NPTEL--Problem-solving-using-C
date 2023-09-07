@@ -19,9 +19,9 @@ int j;
 
     for(i=0, j=n1; j<size && i<n2; ++i, ++j)
         array_new[j] = arr2[i];
-for (i = 0; i < n; i++) {
-      printf("%d\n", arr[i]);
+
+for (i = 0; i < size; i++) {
+      printf("%d\n", array_new[i]);
    }
- 
-   return (0);
+
 }
